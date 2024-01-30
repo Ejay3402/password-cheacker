@@ -152,7 +152,7 @@
           id="Password"
           placeholder="Check your Password here"
         />
-        <img id="eye1" src="icons/eye-crossed.png" class="eye2" />
+        <img id="eye1" src="eye-crossed.png" class="eye2" />
       </div>
       <p id="msg">password is strong</p>
     </div>
@@ -190,10 +190,10 @@
       eye.addEventListener("click", () => {
         if (pass.type === 'password') {
             pass.type = 'text';
-            eye.src = "icons/eye.png";
+            eye.src = "eye.png";
         } else if (pass.type === 'text') {
             pass.type = 'password';
-            eye.src = "icons/eye-crossed.png";
+            eye.src = "eye-crossed.png";
         }
       });
 
